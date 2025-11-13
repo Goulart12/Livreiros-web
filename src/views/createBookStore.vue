@@ -14,6 +14,8 @@ const goBackToHome = () => {
   router.push('/')
 }
 
+const showSuccessModal = ref(false)
+
 const isTemporary = ref(false)
 const selectedName = ref('')
 const selectedPoint = ref('')
@@ -152,6 +154,10 @@ async function createForm() {
   try {
     const response = await api.post('/store/create', inputModel)
     console.log('Success:', response.data)
+    showSuccessModal.value = true
+    setTimeout(() => {
+      router.push('/')
+    }, 3000)
   } catch (error) {
     console.error('Error creating store:', error)
   }
@@ -323,6 +329,10 @@ async function createForm() {
 
       <button @click="createForm">Cadastrar ponto de coleta</button>
     </div>
+  </div>
+  <div id="modal-success" v-show="showSuccessModal">
+    <img src="../assets/check.svg" alt="Cadastro concluído" />
+    <h1>Cadastro concluído</h1>
   </div>
 </template>
 
@@ -573,6 +583,27 @@ async function createForm() {
   left: calc(var(--size) * 0.21);
   top: calc(var(--size) * 0.2);
   stroke-dasharray: 33;
+}
+
+#modal-success {
+  background-color: #0e0a14ef;
+  height: 100%;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: 400ms;
+}
+
+#modal-success h1 {
+  color: white;
+  margin-top: 2rem;
 }
 
 @-webkit-keyframes draw-checkbox-28 {
