@@ -74,45 +74,45 @@ defineProps<Props>()
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .card img {
   width: 100%;
-  height: 150px;
+  height: 9.375rem;
 
   object-fit: cover;
 
-  border-radius: 8px 8px 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .card h1 {
-  margin-top: 32px;
-  font-size: 36px;
-  line-height: 41px;
+  margin-top: 2rem;
+  font-size: 2.25rem;
+  line-height: 2.5625rem;
 
   color: var(--title-color);
 }
 
 .card h3 {
-  margin: 12px 0;
+  margin: 0.75rem 0;
 
   font-weight: bold;
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
   color: var(--primary-color);
 }
 
 .card h2 {
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: bold;
   color: var(--title-color);
 }
 
 .card p {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
 
   color: var(--title-color);
 }

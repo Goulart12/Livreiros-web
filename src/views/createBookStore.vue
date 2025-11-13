@@ -161,7 +161,7 @@ async function createForm() {
 <template>
   <div id="page-create-point">
     <header class="create-point-header">
-      <img src="../assets/logo.svg" alt="logomarca" height="50px" />
+      <img src="../assets/logo.svg" alt="logomarca" height="3.125rem" />
       <a @click="goBackToHome">
         <span></span>
         Voltar
@@ -329,22 +329,22 @@ async function createForm() {
 <style scoped>
 #page-create-point {
   width: 90%;
-  max-width: 1250px;
+  max-width: 78.125rem;
 
   margin: 0 auto;
 }
 
 .create-point-header {
-  margin-top: 48px;
+  margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .create-point-header img {
-  height: 50px;
-  width: 180px;
-  margin-left: -30px;
+  height: 3.125rem;
+  width: 11.25rem;
+  margin-left: -1.875rem;
 }
 
 .create-point-header a {
@@ -357,42 +357,42 @@ async function createForm() {
 }
 
 .create-point-header a span {
-  margin-right: 16px;
+  margin-right: 1rem;
   background-image: url('../assets/arrow-left.svg');
 
   display: flex;
 
-  width: 20px;
-  height: 24px;
+  width: 1.25rem;
+  height: 1.5rem;
 }
 
 .create-point-form {
   background-color: white;
 
-  margin: 80px auto;
-  padding: 64px;
+  margin: 5rem auto;
+  padding: 4rem;
 
-  border-radius: 8px;
+  border-radius: 0.5rem;
 
-  max-width: 750px;
+  max-width: 46.875rem;
 }
 
 .create-point-form h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .create-point-form fieldset {
-  margin-top: 64px;
+  margin-top: 4rem;
 
   border: 0;
 }
 
 .create-point-form legend {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .create-point-form legend h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .create-point-form .field {
@@ -400,7 +400,7 @@ async function createForm() {
   display: flex;
   flex-direction: column;
 
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .create-point-form .checkbox-field {
@@ -408,7 +408,7 @@ async function createForm() {
   flex-direction: row;
   align-items: center;
 
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .create-point-form .field-group {
@@ -420,10 +420,10 @@ async function createForm() {
   background-color: #92dde0;
 
   border: 0;
-  padding: 16px 24px;
-  font-size: 16px;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
 
-  border-radius: 8px;
+  border-radius: 0.5rem;
 
   /* outline: none; */
 }
@@ -435,28 +435,28 @@ async function createForm() {
 }
 
 .create-point-form label {
-  font-size: 14px;
-  margin-bottom: 8px;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
 }
 
 .create-point-form .field-group .field + .field {
-  margin-left: 24px;
+  margin-left: 1.5rem;
 }
 
 .create-point-form button {
-  width: 260px;
-  height: 56px;
+  width: 16.25rem;
+  height: 3.5rem;
 
   background-color: var(--primary-color);
-  border-radius: 8px;
+  border-radius: 0.5rem;
 
   color: var(--title-color);
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
 
   border: 0;
 
-  margin-top: 40px;
+  margin-top: 2.5rem;
   cursor: pointer;
 
   transition: background-color 400ms;
@@ -468,19 +468,19 @@ async function createForm() {
 
 .itens-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
 }
 
 .itens-grid li {
   background-color: #fff0d9;
   list-style: none;
 
-  border: 2px solid #fff0d9;
-  border-radius: 8px;
-  height: 180px;
+  border: 0.125rem solid #fff0d9;
+  border-radius: 0.5rem;
+  height: 11.25rem;
 
-  padding: 32px 24px 16px;
+  padding: 2rem 1.5rem 1rem;
 
   display: flex;
   flex-direction: column;
@@ -493,7 +493,7 @@ async function createForm() {
 }
 
 .itens-grid li span {
-  margin-top: 12px;
+  margin-top: 0.75rem;
   flex: 1;
 
   display: flex;
@@ -504,11 +504,11 @@ async function createForm() {
 
 .itens-grid li.selected {
   background: #92dde0;
-  border: 2px solid #2e76a6;
+  border: 0.125rem solid #2e76a6;
 }
 
 .itens-grid li img {
-  max-height: 60px;
+  max-height: 3.75rem;
 }
 
 .itens-grid li img,
@@ -517,9 +517,9 @@ async function createForm() {
 }
 
 .checkbox-wrapper-28 {
-  --size: 25px;
+  --size: 1.5625rem;
   position: relative;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .checkbox-wrapper-28 *,
@@ -531,12 +531,12 @@ async function createForm() {
 .checkbox-wrapper-28 .promoted-input-checkbox {
   border: 0;
   clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
+  height: 0.0625rem;
+  margin: -0.0625rem;
   overflow: hidden;
   padding: 0;
   position: absolute;
-  width: 1px;
+  width: 0.0625rem;
 }
 
 .checkbox-wrapper-28 input:checked ~ svg {
@@ -557,16 +557,16 @@ async function createForm() {
   content: '';
   height: var(--size);
   width: var(--size);
-  margin-right: 8px;
+  margin-right: 0.5rem;
   float: left;
-  border: 2px solid var(--primary-color);
+  border: 0.125rem solid var(--primary-color);
   background-color: var(--primary-color);
-  border-radius: 3px;
+  border-radius: 0.1875rem;
   transition: 0.15s all ease-out;
 }
 .checkbox-wrapper-28 svg {
   stroke: #0080d3;
-  stroke-width: 3px;
+  stroke-width: 0.1875rem;
   height: 0;
   width: calc(var(--size) * 0.6);
   position: absolute;

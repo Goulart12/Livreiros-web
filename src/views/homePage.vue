@@ -71,7 +71,7 @@ const goToResults = () => {
 
 .home-content {
   width: 90%;
-  max-width: 1250px;
+  max-width: 78.125rem;
   height: 100%;
 
   margin: 0 auto;
@@ -81,16 +81,16 @@ const goToResults = () => {
 }
 
 .home-header {
-  margin-top: 48px;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .home-header img {
-  height: 50px;
-  width: 180px;
-  margin-left: -30px;
+  height: 3.125rem;
+  width: 11.25rem;
+  margin-left: -1.875rem;
 }
 
 .home-header a {
@@ -102,13 +102,13 @@ const goToResults = () => {
 }
 
 .home-header a span {
-  margin-right: 16px;
+  margin-right: 1rem;
   display: flex;
 
   background-image: url(../assets/log-in.svg);
 
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .home-main {
@@ -118,11 +118,11 @@ const goToResults = () => {
   align-items: center;
   justify-content: space-between;
 
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 
 .home-main-text {
-  max-width: 560px;
+  max-width: 35rem;
 
   flex: 1;
 
@@ -132,27 +132,27 @@ const goToResults = () => {
 }
 
 .home-main-text h1 {
-  font-size: 54px;
+  font-size: 3.375rem;
 }
 
 .home-main-text p {
-  font-size: 24px;
-  line-height: 38px;
-  margin-top: 24px;
+  font-size: 1.5rem;
+  line-height: 2.375rem;
+  margin-top: 1.5rem;
 }
 
 .home-main-text a {
   width: 100%;
-  max-width: 360px;
-  height: 72px;
-  border-radius: 8px;
+  max-width: 22.5rem;
+  height: 4.5rem;
+  border-radius: 0.5rem;
 
   display: flex;
   align-items: center;
 
   cursor: pointer;
 
-  margin-top: 40px;
+  margin-top: 2.5rem;
 
   background: #92dde0;
 
@@ -164,11 +164,11 @@ const goToResults = () => {
 }
 
 .home-main-text a span {
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
 
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 
   background-color: rgba(0, 0, 0, 0.08);
 
@@ -181,8 +181,8 @@ const goToResults = () => {
   content: '';
   background-image: url(../assets/search.svg);
 
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .home-main-text a strong {
@@ -209,7 +209,7 @@ const goToResults = () => {
 .modal-content {
   color: white;
 
-  width: 420px;
+  width: 26.25rem;
 }
 
 .modal-header {
@@ -217,32 +217,32 @@ const goToResults = () => {
   align-items: center;
   justify-content: space-between;
 
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 
 .modal-header button {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
   display: flex;
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 0.01px;
+  font-size: 0.0006rem;
 }
 
 .modal-header h1 {
   color: white;
 
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
 }
 
 .modal-form label {
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 1rem;
 
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .modal-form .field {
@@ -253,25 +253,25 @@ const goToResults = () => {
   flex: 1;
   background-color: #f0f0f5;
 
-  border-radius: 8px 0 0 8px;
+  border-radius: 0.5rem 0 0 0.5rem;
   border: 0;
 
-  padding: 16px 24px;
+  padding: 1rem 1.5rem;
 
-  font-size: 16px;
+  font-size: 1rem;
   color: #6c6c80;
 }
 
 .modal-form button {
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
 
   cursor: pointer;
 
   background-color: var(--primary-color);
 
   border: 0;
-  border-radius: 0 8px 8px 0;
+  border-radius: 0 0.5rem 0.5rem 0;
 }
 
 .modal-form button:hover {

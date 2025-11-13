@@ -90,7 +90,7 @@ const Total = computed(() => places.value.length)
 <template>
   <div id="page-search-results">
     <header class="create-point-header">
-      <img src="../assets/logo.svg" alt="logomarca" height="50px" />
+      <img src="../assets/logo.svg" alt="logomarca" height="3.125rem" />
       <a @click="goBackToHome">
         <span></span>
         Voltar
@@ -112,22 +112,22 @@ const Total = computed(() => places.value.length)
 <style scoped>
 #page-search-results {
   width: 90%;
-  max-width: 1250px;
+  max-width: 78.125rem;
 
   margin: 0 auto;
 }
 
 .create-point-header {
-  margin-top: 48px;
+  margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .create-point-header img {
-  height: 50px;
-  width: 180px;
-  margin-left: -30px;
+  height: 3.125rem;
+  width: 11.25rem;
+  margin-left: -1.875rem;
 }
 
 .create-point-header a {
@@ -140,17 +140,17 @@ const Total = computed(() => places.value.length)
 }
 
 .create-point-header a span {
-  margin-right: 16px;
+  margin-right: 1rem;
   background-image: url('../assets/arrow-left.svg');
 
   display: flex;
 
-  width: 20px;
-  height: 24px;
+  width: 1.25rem;
+  height: 1.5rem;
 }
 
 main {
-  margin: 48px;
+  margin: 3rem;
   margin-left: 0;
   margin-right: 0;
 }
@@ -159,6 +159,6 @@ main h4 {
   font-weight: normal;
   font-family: Roboto, sans-serif;
 
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 </style>
