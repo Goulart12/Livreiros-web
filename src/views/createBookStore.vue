@@ -623,4 +623,58 @@ async function createForm() {
     stroke-dashoffset: 0;
   }
 }
+
+@media (max-width: 900px) {
+  #page-create-point {
+    width: 100%;
+  }
+
+  .create-point-header {
+    margin-left: -1rem;
+    margin-right: 1rem;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .create-point-header img {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .create-point-form {
+    margin: 2rem 1rem;
+    padding: 2rem;
+  }
+
+  .create-point-form h1 {
+    font-size: 1.5rem;
+  }
+
+  .create-point-form legend h2 {
+    font-size: 1.25rem;
+  }
+
+  .create-point-form .field-group {
+    flex-direction: column;
+  }
+
+  .create-point-form .field-group .field + .field {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
+  .itens-grid {
+    grid-template-columns: 1fr 1fr; /* Two columns for items on smaller screens */
+  }
+
+  .create-point-form button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .itens-grid {
+    grid-template-columns: 1fr; /* One column for items on very small screens */
+  }
+}
 </style>

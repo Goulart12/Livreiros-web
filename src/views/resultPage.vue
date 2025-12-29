@@ -161,4 +161,26 @@ main h4 {
 
   margin-bottom: 2rem;
 }
+
+@media (max-width: 900px) {
+  #page-search-results {
+    width: 100%;
+  }
+
+  .create-point-header {
+    margin-left: -1rem;
+    margin-right: 1.5rem;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .create-point-header img {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  main {
+    margin: 2rem 1rem;
+  }
+}
 </style>

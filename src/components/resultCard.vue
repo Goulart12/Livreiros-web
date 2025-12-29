@@ -116,4 +116,10 @@ defineProps<Props>()
 
   color: var(--title-color);
 }
+
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
 </style>

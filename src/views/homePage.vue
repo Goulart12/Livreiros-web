@@ -277,4 +277,52 @@ const goToResults = () => {
 .modal-form button:hover {
   background-color: #2e76a6;
 }
+
+@media (max-width: 900px) {
+  .home-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-header {
+    margin-bottom: 3rem;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .home-header a {
+    margin-top: 1.5rem;
+  }
+
+  .home-header img {
+    margin-left: -1rem;
+  }
+
+  .home-main {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .home-main-text {
+    max-width: none;
+    align-items: center;
+  }
+
+  .home-main-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-main-text p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .home-main img {
+    display: none;
+  }
+
+  .modal-content {
+    width: 80%;
+  }
+}
 </style>
